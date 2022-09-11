@@ -1,0 +1,81 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    text-decoration: none;
+}
+.background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.card {
+    box-sizing: border-box;
+    box-shadow: 1px 1px 3px rgb(203, 203, 203);
+    border-radius: 10px;
+    background: rgb(233, 250, 255);
+    padding: 3rem 2rem;
+    margin: 0 2rem;
+}
+.formulario {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.titulo {
+    color: rgb(110, 110, 110);
+    padding-bottom: 2rem;
+    font-size: 24px;
+    text-align: center;
+}
+label {
+    padding-bottom: 5px;
+    color: rgb(119, 119, 119);
+}
+input {
+    box-sizing: border-box;
+    box-shadow: 1px 1px 3px rgb(203, 203, 203);
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 0.5rem;
+    color: rgb(45, 44, 44);
+    width: 100%;
+    margin-bottom: 1rem;
+
+}
+input:hover, .textarea:hover {
+    border-bottom: 1px solid rgb(82, 134, 255);
+}
+.textarea {
+    box-shadow: 1px 1px 3px rgb(203, 203, 203);
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 0.5rem;
+}
+::placeholder {
+    color: rgba(142, 141, 141, 0.289);
+}
+.botao {
+    background: rgb(82, 134, 255);
+    margin-top: 2rem;
+    font-size: 24px;
+    color: white;
+}
+
+
+@media screen and (min-width: 768px) {
+    .card {
+        width: 400px; 
+    }
+}
+@media screen and (min-width: 1024px) {
+    .card {
+        width: 600px; 
+    }
+}
