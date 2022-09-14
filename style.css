@@ -8,6 +8,7 @@
     border: none;
     box-shadow: none;
     text-decoration: none;
+    transition: 0.6s;
 }
 .background {
     box-sizing: border-box;
@@ -51,7 +52,7 @@
     margin-bottom: 1rem;
 
 }
-.input__formulario:hover, .textarea:hover {
+.input__formulario:hover, .textarea:hover, .nossoContato:hover, .h__atendimento:hover, .h__selecao:hover, .botao:hover {
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.291);
 }
 .textarea {
@@ -70,12 +71,12 @@
     font-size: 24px;
     color: white;
     padding: 0.5rem;
+    cursor: pointer;
 }
 .nossoContato {
     margin-top: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.298);
-    padding: 1rem;
-    
+    padding: 1rem; 
 }
 legend {
     font-size: 11px;
@@ -84,12 +85,15 @@ legend {
     font-size: 15px;
     padding: 0.5rem;
     margin-bottom: 1rem;
+    cursor: pointer;
+}
+label {
+    cursor: pointer;
 }
 .h__atendimento {
     margin-top: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.298);
     padding: 0.7rem 1rem;
-    
     
 }
 .h__selecao {
@@ -97,13 +101,15 @@ legend {
     border-radius: 5px;
     font-size: 17px;
     margin-bottom: 1rem;
-    
+    cursor: pointer;
 }
 .newlater {
    margin: 1.3rem 0.5rem 0 0;
+   cursor: pointer;
 }
 .receber {
     font-size: 10px;
+    cursor: pointer;
 }
 @media screen and (min-width: 768px) {
     .card {
