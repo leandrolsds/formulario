@@ -107,6 +107,12 @@ legend {
     .card {
         width: 400px; 
     }
+    legend {
+        font-size: 15px;
+    }
+    .receber {
+        font-size: 15px;
+    }
 }
 @media screen and (min-width: 1024px) {
     .card {
