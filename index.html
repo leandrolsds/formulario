@@ -11,14 +11,35 @@
     <div class="card">
         <form class="formulario" action="" autocomplete="on">
             <h1 class="titulo">Preencha o formulário</h1>
-            <label for="nome">Nome*</label>
-            <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo" maxlength="40" autocomplete="nome" required>
-            <label for="email">Email*</label>
-            <input type="email" name="email" id="email" placeholder="Informe seu Email" maxlength="50" autocomplete="email" required>
-            <label for="tel">Telefone*</label>
-            <input type="tel" name="tel" id="tel" placeholder="Ex: (11)99999-8888" maxlength="14" autocomplete="tel" required>
-            <label for="mensagem">Mensagem</label>
+            <label class="label__formulario" for="nome">Nome*</label>
+            <input class="input__formulario" type="text" name="nome" id="nome" placeholder="Digite seu nome completo" maxlength="40" autocomplete="nome" required>
+            <label class="label__formulario" for="email">Email*</label>
+            <input class="input__formulario" type="email" name="email" id="email" placeholder="Informe seu Email" maxlength="50" autocomplete="email" required>
+            <label class="label__formulario" for="tel">Telefone*</label>
+            <input class="input__formulario" type="tel" name="tel" id="tel" placeholder="Ex: (11)99999-8888" maxlength="14" autocomplete="tel" required>
+            <label class="label__formulario" for="mensagem">Mensagem</label>
             <textarea class="textarea" name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Digite aqui sua mensagem..." maxlength="500"></textarea>
+            
+            <fieldset class="nossoContato">
+                <legend>Como prefere receber nosso contato?</legend>
+                <input class="radio" type="radio" name="contato" value="email" id="iemail"> <label for="iemail">Email</label><br>
+                <input class="radio" type="radio" name="contato" value="telefone" id="telefone"> <label for="telefone">Telefone</label><br>
+                <input class="radio" type="radio" name="contato" value="whatsapp" id="whatsapp" checked> <label for="whatsapp">WhatsApp</label><br>
+            </fieldset>
+
+            <fieldset class="h__atendimento">
+                <legend>Qual horário quer ser atendido?</legend>
+                <select class="h__selecao" name="horario" id="horario">
+                    <option value="manha">Manhã</option>
+                    <option value="tarde">Tarde</option>
+                    <option value="noite">Noite</option>
+                </select>
+            </fieldset>
+
+            <div>
+                <input class="newlater" type="checkbox" name="newlater" id="newlater"><label class="receber" for="newlater">Gostaria de receber nossas novidades por email?</label>
+            </div>
+            
 
             <input class="botao" type="submit" value="Enviar">
 
