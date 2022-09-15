@@ -16,7 +16,7 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    margin: 3rem 0;
+    margin: 8rem 0;
     
 }
 .card {
@@ -25,7 +25,6 @@
     border-radius: 10px;
     background: rgb(233, 250, 255);
     padding: 3rem 2rem;
-    margin: 4rem 0;
 }
 .formulario {
     box-sizing: border-box;
