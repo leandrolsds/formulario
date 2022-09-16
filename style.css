@@ -16,12 +16,13 @@
     align-items: center;
     justify-content: center;
     height: 100%;  
+    background: #f5f8fd;
 }
 .card {
     box-sizing: border-box;
     box-shadow: 1px 1px 3px rgb(203, 203, 203);
     border-radius: 10px;
-    background: rgb(233, 250, 255);
+    background: #d6e7fb;
     padding: 3rem 2rem;
     margin: 1rem 0;
 }
