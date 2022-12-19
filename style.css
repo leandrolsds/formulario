@@ -2,13 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
     font-family: 'Roboto', sans-serif;
-    outline: none;
     margin: 0;
     padding: 0;
     border: none;
-    box-shadow: none;
     text-decoration: none;
-    transition: 0.6s;
 }
 .background {
     box-sizing: border-box;
@@ -50,7 +47,9 @@
     color: rgb(45, 44, 44);
     width: 100%;
     margin-bottom: 1rem;
-
+}
+.input__formulario:focus-visible, .textarea:focus-visible {
+    outline: 2px solid #5286ff;
 }
 .input__formulario:hover, .textarea:hover, .nossoContato:hover, .h__atendimento:hover, .h__selecao:hover, .botao:hover {
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.291);
@@ -66,7 +65,7 @@
 }
 .botao {
     border-radius: 10px;
-    background: rgb(82, 134, 255);
+    background: #5286ff;
     margin-top: 2rem;
     font-size: 24px;
     color: white;
