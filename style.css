@@ -6,6 +6,7 @@
     padding: 0;
     border: none;
     text-decoration: none;
+    transition: all .6s;
 }
 .background {
     box-sizing: border-box;
@@ -75,7 +76,7 @@
 .nossoContato {
     margin-top: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.298);
-    padding: 1rem; 
+    padding: 1rem;
 }
 legend {
     font-size: 11px;
