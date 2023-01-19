@@ -15,14 +15,14 @@
     justify-content: center;
     height: 100%;  
     background: #f5f8fd;
+    padding: 4rem;
 }
 .card {
     box-sizing: border-box;
     box-shadow: 1px 1px 3px rgb(203, 203, 203);
     border-radius: 10px;
     background: #d6e7fb;
-    padding: 3rem 2rem;
-    margin: 1rem 0;
+    padding: 2rem;
 }
 .formulario {
     box-sizing: border-box;
@@ -31,7 +31,7 @@
 }
 .titulo {
     color: rgb(110, 110, 110);
-    padding-bottom: rem;
+    padding-bottom: 2rem;
     font-size: 24px;
     text-align: center;
 }
